@@ -51,7 +51,7 @@ In image colorization, exemplar-based methods use a reference color image to gui
 
 Diagram of our proposal for exemplar-based image colorization.:
 
-![framework](./diagrams_img/diagram_net-2_0-1.png)
+<img src="https://github.com/hernan0930/Super-attention-for-exemplar-based-image-colorization/blob/main/diagrams_img/diagram_net-2_0-1.png" width="48">
 
 Diagram of our super-attention block. This layer takes a reference luminance
 feature map f_R, reference color feature map φ_R and a target luminance feature map
