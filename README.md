@@ -51,11 +51,11 @@ In image colorization, exemplar-based methods use a reference color image to gui
 
 Diagram of our proposal for exemplar-based image colorization.:
 
-![framework](./diagrams_img/diagram_net-2_0.png)
+![framework](./diagrams_img/diagram_net-2_0-1.png)
 
 Diagram of our super-attention block. This layer takes a reference luminance
 feature map f_R, reference color feature map φ_R and a target luminance feature map
 f_T, as an input, and learns an attention map at superpixel level by means of a robust
 matching between high-resolution encoded feature maps:
 
-![super_attent](./diagrams_img/super-attention_unpooling.png)
+![super_attent](./diagrams_img/super-attention_unpooling-1.png)
