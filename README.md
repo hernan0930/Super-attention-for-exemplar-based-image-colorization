@@ -19,7 +19,7 @@ Citation:
 }
 ```
 
-## Requirements
+## Requirements [TO DO]
 
 - python==3.6.13
 - pytorch==1.7.1
@@ -33,11 +33,11 @@ conda install pytorch==1.7.1 torchvision==0.8.2  cudatoolkit=11.0 -c pytorch
 pip install -r requirements.txt
 ```
 
-## Pretrained Model and Results
+## Pretrained Model [TO DO]
 
-We uploaded the [pre-trained model](https://drive.google.com/drive/folders/1O2Sjiecos4qN0wRi6fqmyc4XWQNoaulr?usp=sharing) to Google Cloud.
+We uploaded the [pre-trained model]() to Google drive.
 
-## Test
+## Test [TO DO]
 
 ```python
 python generate_image.py --files1 ./test_image/contents --files2 ./test_image/color --ckpt_dir <> --result_dir ./result/
