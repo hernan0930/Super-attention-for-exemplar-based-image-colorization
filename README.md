@@ -3,9 +3,7 @@
 **Super-attention for exemplar-based image colorization** <br>
 *Hernan Carrillo, Michaël Clément, Aurélie Bugeau.* <br>
 Asian Conference on Computer Vision (ACCV), 2022 <br>
-[[Paper](https://openaccess.thecvf.com/content/ACCV2022/papers/Camilo_Super-attention_for_exemplar-based_image_colorization_ACCV_2022_paper.pdf)]
-
-[[Supplementary](https://hal.science/hal-03794455v1/file/Super_attention_for_exemplar_based_image_colorization_supplementary_materials.pdf)]
+[[Paper](https://openaccess.thecvf.com/content/ACCV2022/papers/Camilo_Super-attention_for_exemplar-based_image_colorization_ACCV_2022_paper.pdf)] [[Supplementary](https://hal.science/hal-03794455v1/file/Super_attention_for_exemplar_based_image_colorization_supplementary_materials.pdf)]
 
 ## Reference
 
@@ -53,11 +51,11 @@ In image colorization, exemplar-based methods use a reference color image to gui
 
 Diagram of our proposal for exemplar-based image colorization.:
 
-![framework](./diagrams_img/diagram_net-2_0)
+![framework](./diagrams_img/diagram_net-2_0.png)
 
 Diagram of our super-attention block. This layer takes a reference luminance
 feature map f_R, reference color feature map φ_R and a target luminance feature map
 f_T, as an input, and learns an attention map at superpixel level by means of a robust
 matching between high-resolution encoded feature maps:
 
-![super_attent](./diagrams_img/super-attention_unpooling.pdf)
+![super_attent](./diagrams_img/super-attention_unpooling.png)
