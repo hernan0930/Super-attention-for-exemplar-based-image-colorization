@@ -19,17 +19,19 @@ Citation:
 }
 ```
 
-## Requirements [TO DO]
+## Requirements
 
-- python==3.6.13
-- pytorch==1.7.1
-- torchvision==0.8.2
-- pillow==8.3.1
+- python==3.8
+- pytorch==2.2.0
+- torchvision==0.17
+- torch-scatter==2.1.2+pt22cu121
+- scikit-image==0.21.0
+- kornia==0.21.0
 
 ```
-conda create -n pdnla python=3.6
-conda activate pdnla
-conda install pytorch==1.7.1 torchvision==0.8.2  cudatoolkit=11.0 -c pytorch
+conda create -n super-atten python=3.8
+conda activate super-atten
+conda install pytorch==2.2.0 torchvision==0.17  cudatoolkit=12.1 -c pytorch
 pip install -r requirements.txt
 ```
 
@@ -37,10 +39,10 @@ pip install -r requirements.txt
 
 We uploaded the [pre-trained model]() to Google drive.
 
-## Test [TO DO]
+## Test
 
 ```python
-python generate_image.py --files1 ./test_image/contents --files2 ./test_image/color --ckpt_dir <> --result_dir ./result/
+python main.py --target_dir ./samples/target/ --ref_dir ./samples/ref/ --out_dir ./samples/results/
 ```
 
 ## Abstract
