@@ -21,10 +21,12 @@ Citation:
 
 ## Requirements [TO DO]
 
-- python==3.6.13
-- pytorch==1.7.1
-- torchvision==0.8.2
-- pillow==8.3.1
+- python==3.8
+- pytorch==2.2.0
+- torchvision==0.17
+- torch-scatter==2.1.2+pt22cu121
+- scikit-image==0.21.0
+- kornia==0.21.0
 
 ```
 conda create -n pdnla python=3.6
