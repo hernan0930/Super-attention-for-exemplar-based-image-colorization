@@ -44,7 +44,7 @@ We uploaded the [pre-trained model]() to Google drive.
 ```python
 python main.py --target_dir ./samples/target/ --ref_dir ./samples/ref/ --out_dir ./samples/results/
 ```
-
+where **--target_dir** and **--ref_dir** are directories that contains target and reference images in this form: **0.jpg, 1.png, 2.png, 3.jpg, ..... etc.**
 ## Abstract
 
 In image colorization, exemplar-based methods use a reference color image to guide the colorization of a target grayscale image. In this article, we present a deep learning framework for exemplar-based image colorization which relies on attention layers to capture robust correspondences between high-resolution deep features from pairs of images. To avoid the quadratic scaling problem from classic attention, we rely on a novel attention block computed from superpixel features, which we call super-attention. Super-attention blocks can learn to transfer semantically related color characteristics from a reference image at different scales of a deep network. Our experimental validations highlight the interest of this approach for exemplar-based colorization. We obtain promising results, achieving visually appealing colorization and outperforming state-of-theart methods on different quantitative metrics.
