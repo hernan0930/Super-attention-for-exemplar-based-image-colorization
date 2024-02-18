@@ -31,7 +31,6 @@ Citation:
 ```
 conda create -n super-atten python=3.8
 conda activate super-atten
-conda install pytorch==2.2.0 torchvision==0.17  cudatoolkit=12.1 -c pytorch
 pip install -r requirements.txt
 ```
 
