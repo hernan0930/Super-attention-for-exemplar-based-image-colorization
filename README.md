@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## Pretrained Model [TO DO]
 
-We uploaded the [pre-trained model]() to Google drive.
+We uploaded the [pre-trained model](https://drive.google.com/file/d/1g9_NWvEEd5VewIlNc-HHKWcRUmGrLSav/view?usp=drive_link) to Google drive.
 
 ## Test
 
