@@ -38,6 +38,8 @@ pip install -r requirements.txt
 
 We uploaded the [pre-trained model](https://drive.google.com/file/d/1g9_NWvEEd5VewIlNc-HHKWcRUmGrLSav/view?usp=drive_link) to Google drive.
 
+- Add the checkpoint.pt to ./save_models/checkpoint.pt
+
 ## Test
 
 ```python
