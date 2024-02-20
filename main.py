@@ -14,7 +14,7 @@ def testing_mode(path_target, path_ref, out_dir, device):
     loader_val = DataLoader(datasett_val, batch_size=1, shuffle=False, pin_memory=True)
 
     # Load models
-    PATH_model = './save_models/our_l1_lpips_hist_encod_max_lum_map_multiref_w_conv_ChromaGan_epoch23/checkpoint.pt'
+    PATH_model = './save_models/checkpoint.pt'
 
     # Load model and initializing VGG 19 weights and bias
     model2 = gen_color_stride_vgg16(dim=2)
