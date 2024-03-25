@@ -34,11 +34,14 @@ conda activate super-atten
 pip install -r requirements.txt
 ```
 
-## Pretrained Model [TO DO]
+## Pretrained Model 
 
-We uploaded the [pre-trained model](https://drive.google.com/file/d/1g9_NWvEEd5VewIlNc-HHKWcRUmGrLSav/view?usp=drive_link) to Google drive.
+We uploaded the [pre-trained model](https://drive.google.com/file/d/1g9_NWvEEd5VewIlNc-HHKWcRUmGrLSav/view?usp=sharing) to Google drive.
 
 - Add the checkpoint.pt to ./save_models/checkpoint.pt
+
+## Training [TO DO] 
+Working...
 
 ## Test
 
